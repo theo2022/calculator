@@ -21,12 +21,14 @@ position: relative;
 }
 .top{
   height:100px;
+  padding: 20px;
 
 }
-.display{
+input{
   width: 100%;
   background-color: #a2af77;
   padding: 10px 15px;
+  color:black;
 }
 .bottom{
   height: 200px;
@@ -35,4 +37,8 @@ position: relative;
   flex-wrap: wrap;
   justify-content:space-evenly;
   align-items: center;
+}
+button{
+ 
+  
 }
