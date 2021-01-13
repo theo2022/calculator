@@ -1,0 +1,38 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+  padding: 0;
+}
+.main{
+  height: 650px;
+  background-color: #f3767c;
+position: relative;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width:300px;
+  height: 350px;
+  background-color: #1e1c1f;
+}
+.top{
+  height:100px;
+
+}
+.display{
+  width: 100%;
+  background-color: #a2af77;
+  padding: 10px 15px;
+}
+.bottom{
+  height: 200px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: center;
+}
